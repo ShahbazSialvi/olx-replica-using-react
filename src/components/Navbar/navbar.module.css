@@ -35,3 +35,7 @@
     background-color: white !important;
     color: black;
 }
+.searchBtn{
+    width: 20px;
+    height: 20px;
+}

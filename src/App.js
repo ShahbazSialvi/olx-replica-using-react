@@ -1,9 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Navbar from './components/Navbar/Navebar'
-import Ribbon from './components/Ribbon/Ribbon'
+import Navbar from './components/Navbar/Navebar';
+import Ribbon from './components/Ribbon/Ribbon';
 import Product from './components/Products/Product';
+import Poster from './components/poster/Poster';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -11,6 +13,9 @@ function App() {
       <Navbar />
       <Ribbon />
       <Product />
+      <Poster />
+      <Footer />
+
     </div>
   );
 }

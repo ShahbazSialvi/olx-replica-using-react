@@ -18,23 +18,22 @@ export default function Product() {
     ]
 
     return (
-        <div>
-
-            <h2>Fresh Recomendations</h2>
+        <div className={style.Products}>
             <Container>
+                <h2>Fresh Recomendations</h2>
                 <Row>
                     {objects.map((obj, ind) => {
                         return (
-                            <Col>
+                            <Col className={style.f} sm={3}>
                                 <div>
                                     <Card className={style.product} key={ind} style={{ width: '18rem' }}>
-                                        <Card.Img ClassName={style.avtar} variant="top" src={obj.imgUrl} />
+                                        <Card.Img variant="top" src={obj.imgUrl} />
                                         <Card.Body>
                                             <Card.Title>{obj.name}</Card.Title>
                                             <Card.Text>
                                                 {obj.desc}
                                             </Card.Text>
-                                            <Button variant="primary">Go somewhere</Button>
+                                            <Button variant="primary">Detail</Button>
                                         </Card.Body>
                                     </Card>
                                 </div></Col>
@@ -42,6 +41,9 @@ export default function Product() {
                     })}
                 </Row>
             </Container>
+            <div className={style.showMore}>
+                <Button variant="primary">SHOW MORE</Button>
+            </div>
         </div>
     )
 }

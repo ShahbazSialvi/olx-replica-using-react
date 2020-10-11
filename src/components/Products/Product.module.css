@@ -1,7 +1,12 @@
-.cardImg{
-    display: inline;
+.product{
+    padding: 20px;
+    width: auto;
+    height: 450px;
 }
-.avtar{
-    width:250px;
-    height: 250px;
+.colCard{
+    padding: 10px;
+}
+.showMore{
+    text-align: center;
+    margin-top: 30px;
 }
