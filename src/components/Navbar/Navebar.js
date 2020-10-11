@@ -13,9 +13,7 @@ function Navebar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Form className={style.searchbar}>
                             <Form.Control className={style.searchbar1} size="lg" type="search" placeholder="Pakistan" />
-                            <Form.Control className={style.searchbar2} size="lg" type="search" placeholder="Find Cars, Mobile Phones and more.." >
-                                
-                            </Form.Control>
+                            <Form.Control className={style.searchbar2} size="lg" type="search" placeholder="Find Cars, Mobile Phones and more.." />
                     </Form>
                     <Button className={style.navbarLogin} variant="link">Login</Button>
                 </Navbar.Collapse>
