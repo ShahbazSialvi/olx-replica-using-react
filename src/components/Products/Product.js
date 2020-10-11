@@ -3,7 +3,6 @@ import { Card, Button, Col, Row, Container } from 'react-bootstrap';
 import style from './Product.module.css'
 
 export default function Product() {
-
     let objects = [
         { imgUrl: "https://cdn.pixabay.com/photo/2016/08/20/05/36/avatar-1606914_960_720.png", name: "Hira Rehman", desc: "Web Developer" },
         { imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRw94OjqMOjukkF1EOn9cO3VUske1EwoWfkkA&usqp=CAU", name: "Nabiha Potter", desc: "Content Writter" },

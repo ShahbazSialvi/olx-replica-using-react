@@ -15,7 +15,6 @@ function App() {
       <Product />
       <Poster />
       <Footer />
-
     </div>
   );
 }
