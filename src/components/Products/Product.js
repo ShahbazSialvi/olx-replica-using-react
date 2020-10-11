@@ -19,7 +19,9 @@ export default function Product() {
     return (
         <div className={style.Products}>
             <Container>
+                <br />
                 <h2>Fresh Recomendations</h2>
+                <br />
                 <Row>
                     {objects.map((obj, ind) => {
                         return (
