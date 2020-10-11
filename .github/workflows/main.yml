@@ -41,4 +41,4 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build testing.olx.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build testing-olx.surge.sh --token ${{ secrets.SURGE_TOKEN }}
