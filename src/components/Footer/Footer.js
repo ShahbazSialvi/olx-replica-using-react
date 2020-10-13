@@ -19,28 +19,28 @@ function Footer() {
                         <Col className={style.xs}>Bikes</Col>
                         <Col className={style.xs}>About OLX Group</Col>
                         <Col className={style.xs}>Help</Col>
-                        <Col><img src=""></img><img src=""></img><img src=""></img><img src=""></img><img src=""></img></Col>
+                        <Col>&#9609; &#9609; &#9609; &#9609;</Col>
                     </Row>
                     <Row>
                         <Col className={style.xs}>Flats for rent</Col>
                         <Col className={style.xs}>Watches</Col>
                         <Col className={style.xs}>Olx blog</Col>
                         <Col className={style.xs}>sitemap</Col>
-                        <Col>5</Col>
+                        <Col></Col>
                     </Row>
                     <Row>
                         <Col className={style.xs}>Jobs</Col>
                         <Col className={style.xs}>Books</Col>
                         <Col className={style.xs}>Contact Us</Col>
                         <Col className={style.xs}>Legal & Privacy information</Col>
-                        <Col>0</Col>
+                        <Col></Col>
                     </Row>
                     <Row>
                         <Col className={style.xs}>Mobile Phones</Col>
                         <Col className={style.xs}>Dogs</Col>
                         <Col className={style.xs}>OLX for Businesses</Col>
                         <Col className={style.xs}></Col>
-                        <Col>5</Col>
+                        <Col></Col>
                     </Row>
                 </Container-Fluid>
             </div>
