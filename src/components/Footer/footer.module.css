@@ -13,3 +13,6 @@
 .heading{
     font-weight: bold;
 }
+.bgdark{
+    background-color: rgba(88, 101, 112, 0.918);
+}

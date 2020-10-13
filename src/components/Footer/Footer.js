@@ -44,8 +44,10 @@ function Footer() {
                     </Row>
                 </Container-Fluid>
             </div>
-            <div>
-                <Navbar bg="dark" variant="dark">
+            <Container-Fluid>
+                <Row>
+                    <Col col={9} className={style.bgdark} >
+                <Navbar>
                     <Navbar.Brand href="#home"><h6>Other Countries</h6></Navbar.Brand>
                     <Nav className="mr-auto">
                         <Nav.Link href="#home">South Africa</Nav.Link>
@@ -53,7 +55,17 @@ function Footer() {
                         <Nav.Link href="#pricing">India</Nav.Link>
                     </Nav>
                 </Navbar>
-            </div>
+                </Col>
+                
+
+                
+                <Col col={3} className={style.bgdark}>
+                    <p></p>
+                    <h6>Free Classified in Pakistan .@ 2006-2020 OLX</h6>
+                </Col>
+                </Row>
+
+            </Container-Fluid>
         </div>
     )
 }
