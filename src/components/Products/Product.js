@@ -25,7 +25,7 @@ export default function Product() {
                 <Row>
                     {objects.map((obj, ind) => {
                         return (
-                            <Col className={style.f} sm={3}>
+                            <Col className={style.f} sm={6} md={4} lg={3}>
                                 <div>
                                     <Card className={style.product} key={ind} style={{ width: '18rem' }}>
                                         <Card.Img variant="top" src={obj.imgUrl} />
