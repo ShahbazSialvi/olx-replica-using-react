@@ -7,3 +7,9 @@
     padding: 50px !important;
     
 }
+.xs{
+    font-size: 12px;
+}
+.heading{
+    font-weight: bold;
+}
