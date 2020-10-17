@@ -60,7 +60,7 @@ function Footer() {
 
                 
                 <Col col={3} className={style.bgdark}>
-                    <br>    </br>
+                    <p></p>
                     <h6>Free Classified in Pakistan .@ 2006-2020 OLX</h6>
                 </Col>
                 </Row>
