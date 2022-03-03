@@ -32,9 +32,9 @@ function Ribbon() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            <img className={style.bannerimg} src="https://pbs.twimg.com/media/DJnwm3hXoAAFZkL.jpg"></img>
+            <img className={style.bannerimg} alt='navbar' src="https://pbs.twimg.com/media/DJnwm3hXoAAFZkL.jpg"></img>
         </div>
     )
 }
 
-export default Ribbon
+export default Ribbon;

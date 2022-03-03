@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Form, FormControl, Button, InputGroup } from 'react-bootstrap';
+import { Navbar, Form, Button } from 'react-bootstrap';
 import style from './navbar.module.css';
 
 function Navebar() {
@@ -14,7 +14,7 @@ function Navebar() {
                     <Form className={style.searchbar}>
                         <Form.Control className={style.searchbar1} size="lg" type="search" placeholder="Pakistan" />
                         <Form.Control className={style.searchbar2} size="lg" type="search" placeholder="Find Cars, Mobile Phones and more.." />
-                        <Button variant="primary">&#128269;</Button>
+                        <Button variant="primary"><span role='img' aria-label='icon'>&#128269;</span></Button>
                     </Form>
                     <Button className={style.navbarLogin} variant="link">Login</Button>
                     <Button className={style.sellBtn} variant="danger">+SELL</Button>
